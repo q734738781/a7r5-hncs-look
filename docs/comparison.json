@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "project": "a7r5-hncs-look",
+  "published_date": "2026-10-25",
+  "look": {
+    "name": "HNCS_Unified_Only",
+    "path": "downloads/HNCS_Unified_Only.a7look",
+    "sha256": "78ac328c0e9a073b35080200fd41d3feec1ec55942931a6b6bd56270c6bcf787",
+    "software_simulation": true,
+    "camera_verified": false,
+    "grid_enabled": true
+  },
+  "variants": {
+    "st": "Sony ST · Sony Imaging Edge 实际导出",
+    "adobe": "Adobe HNCS · Camera Raw 实际导出",
+    "a7look": "我们的 a7look · 软件模拟"
+  },
+  "method": {
+    "single_unified_look": true,
+    "parameters_changed_for_publication": false,
+    "extra_DRO_layer": false,
+    "post_render_colour_edits": false,
+    "original_preview_JPEG_bytes_preserved": true,
+    "photos_visually_checked_for_people": true,
+    "EXIF_present": false
+  },
+  "photos": [
+    {
+      "id": "clouds",
+      "title": "云与楼宇",
+      "category": "风景",
+      "note": "暖色云层、灰蓝天空与建筑阴影。",
+      "images": {
+        "st": {
+          "path": "assets/images/clouds/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 102974,
+          "sha256": "41d5d9ade53a9206557d41e16a89bc4bde55a05f7d709f2ecc5585a5ddcbc78c"
+        },
+        "adobe": {
+          "path": "assets/images/clouds/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 124541,
+          "sha256": "1d79adf28092b3b4563d0174086234e188612d52de462d26691af13c1301c65a"
+        },
+        "a7look": {
+          "path": "assets/images/clouds/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 128453,
+          "sha256": "359d56032d96361e119e937ad9c5fc161ace3c89b2ff0661b75aab30ea8ec6f2"
+        }
+      }
+    },
+    {
+      "id": "snow",
+      "title": "雪后林间",
+      "category": "风景",
+      "note": "雪面、树干与低饱和阴影。",
+      "images": {
+        "st": {
+          "path": "assets/images/snow/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 247523,
+          "sha256": "ca2a447076f59da38fec19e48a89320d9193dbd3f199e84f075521f3bfadcb6e"
+        },
+        "adobe": {
+          "path": "assets/images/snow/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 287640,
+          "sha256": "4aa8e0cdae83063ce32ce8029800ff5a4718c91ac87a1ed262d1f916b3d25a42"
+        },
+        "a7look": {
+          "path": "assets/images/snow/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 311862,
+          "sha256": "bfa96e831fe98df567c4111a0eead6870e7d1ddebcdf903281523d87392b64cf"
+        }
+      }
+    },
+    {
+      "id": "lakeside",
+      "title": "湖岸夜色",
+      "category": "风景",
+      "note": "暖色灯光、水面倒影与暗部植被。",
+      "images": {
+        "st": {
+          "path": "assets/images/lakeside/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 78842,
+          "sha256": "e8f95c178ca672891fb47b09b5109c54606428404889243ce0ffefdc97644863"
+        },
+        "adobe": {
+          "path": "assets/images/lakeside/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 107151,
+          "sha256": "2b25a0941bf77b4f9ea3af34c055ed1112e16b8153d65a5885c376e2f22fd846"
+        },
+        "a7look": {
+          "path": "assets/images/lakeside/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 112914,
+          "sha256": "70ff2e6329317af00d041d01768f1e189e11daeb8010ca1ca688d152e002977e"
+        }
+      }
+    },
+    {
+      "id": "flowerbed",
+      "title": "蓝紫与粉红花境",
+      "category": "植物",
+      "note": "花瓣色相、鲜艳粉红与绿叶。",
+      "images": {
+        "st": {
+          "path": "assets/images/flowerbed/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 345927,
+          "sha256": "d57dcbc6bcf9fe9b70b82af24ee8a559be52e2a51c2ba0481812c4f5695fafa1"
+        },
+        "adobe": {
+          "path": "assets/images/flowerbed/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 326829,
+          "sha256": "71aaa925cea442ed772ac225f574892d3d67674595764fd9bf01cda9a8cb6cd7"
+        },
+        "a7look": {
+          "path": "assets/images/flowerbed/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 312576,
+          "sha256": "e38dbe541070f31da5a35473284abf607f1b211dc7dce451fb8f8daea73797b5"
+        }
+      }
+    },
+    {
+      "id": "hydrangea",
+      "title": "绣球与绿叶",
+      "category": "植物",
+      "note": "浅色花序、叶片绿色与阳光。",
+      "images": {
+        "st": {
+          "path": "assets/images/hydrangea/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 251923,
+          "sha256": "e805af39fe924d5af474ddffb51e885c52ae7e20b84752260e84aa131dc3431d"
+        },
+        "adobe": {
+          "path": "assets/images/hydrangea/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 244195,
+          "sha256": "e966c72690c89b8fbeac08ec15be2c177b59bf848e0eae626be60dfe5d582395"
+        },
+        "a7look": {
+          "path": "assets/images/hydrangea/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 236627,
+          "sha256": "8ade02c3e6c0d942a8e3b5269e6dbcd726591ef438d7742a4f98d486856c9091"
+        }
+      }
+    },
+    {
+      "id": "new-leaves",
+      "title": "枝头新芽",
+      "category": "植物",
+      "note": "柔和背景与细小绿叶。",
+      "images": {
+        "st": {
+          "path": "assets/images/new-leaves/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 48314,
+          "sha256": "132851e6ae9586fcf69cbd9b65f200dc4e05f0a8bc94210d06bb60c75fcc7040"
+        },
+        "adobe": {
+          "path": "assets/images/new-leaves/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 77948,
+          "sha256": "4767a44adf582020db40d77d30033e987fbed146cdffccdb6d31ca4f40bcb0b8"
+        },
+        "a7look": {
+          "path": "assets/images/new-leaves/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 76110,
+          "sha256": "f4590dca197123d86d17c7a8712c8c9a62c2818d6afaa378822db65e9b2cc83f"
+        }
+      }
+    },
+    {
+      "id": "scotch-egg",
+      "title": "苏格兰蛋",
+      "category": "食物",
+      "note": "蛋黄、炸衣与生菜的暖冷关系。",
+      "images": {
+        "st": {
+          "path": "assets/images/scotch-egg/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 136693,
+          "sha256": "75989e048d50cba1831657bf22e037d3b4d6bf519a348ab57c559b40ce966a16"
+        },
+        "adobe": {
+          "path": "assets/images/scotch-egg/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 195239,
+          "sha256": "988e8fec832f3917addaac173efa35d935186a8ababfc7e422ba5b5416ec8894"
+        },
+        "a7look": {
+          "path": "assets/images/scotch-egg/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 193148,
+          "sha256": "fdfad1c4decc4669b6da7f074a1bbb8e559fa8b4430f65b55d288a9e1ec4db44"
+        }
+      }
+    },
+    {
+      "id": "stir-fry",
+      "title": "暖光下的菜肴",
+      "category": "食物",
+      "note": "红色酱汁、青椒与白色餐具。",
+      "images": {
+        "st": {
+          "path": "assets/images/stir-fry/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 103809,
+          "sha256": "35bdad09adc244ff34246b7f946dba5db1b919614abdd4c1916d3aea3f7d2f6b"
+        },
+        "adobe": {
+          "path": "assets/images/stir-fry/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 146046,
+          "sha256": "13a81e805a02ce78cfdc88dcf1394375d9442f0eb1f43ba1932b4b9b4c304b0a"
+        },
+        "a7look": {
+          "path": "assets/images/stir-fry/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 147531,
+          "sha256": "f5345a375f626f1b4eacd6a176a8d2c5e2d3e8678d521a1d29bff5d2258801ad"
+        }
+      }
+    },
+    {
+      "id": "tonkatsu",
+      "title": "炸猪排",
+      "category": "食物",
+      "note": "金黄炸衣、肉色与室内暖光。",
+      "images": {
+        "st": {
+          "path": "assets/images/tonkatsu/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 123995,
+          "sha256": "efb10eae19341b7feb0b32ba282bd848fb6b7b04cba34817b5621b0aefba5c48"
+        },
+        "adobe": {
+          "path": "assets/images/tonkatsu/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 167174,
+          "sha256": "c9d9564d4a11974592e2964d804dd6017a51026e446501d8384a28a063625c98"
+        },
+        "a7look": {
+          "path": "assets/images/tonkatsu/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 163550,
+          "sha256": "f7d81eb89fda23e308a14771136ff1bb45f9b0dcdb987ca9c5847a5fb70405d2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "a7c2-creative-look/1",
+  "name": "HNCS_Unified_Only",
+  "base": "ST",
+  "target": {
+    "model": "ILCE-7CM2",
+    "firmware": "2.01"
+  },
+  "table_format": "native-5x9x9-s7-planar",
+  "table_base64": "AAAAAP/+/Pz8AAAAAAD+/Pv7AAAAAAD9/Pv7AAABA/v3+vr6AAEECwD5/Pr6AQIGEAb9//v5AQIFCwX6+Pb0AQIDBAL89vDuAQECAgH+9/DuAAAAAAD+/Pz8AAD/AAL++/v7///9/ggA/Pv7///9AwYEA/z6AAD/AgIOBf37AAEDCwsHB/76AAEDCgb8+vb0AQECAwL99eXoAQEBAgEA9+rrAAAAAQH++/v8AAAAAgP99/r7////AgcD/fz8//7+AQIFCwD9//79/gEJDAH9////AAQNCv/7/////wEB/vf1AAAAAAD99+npAAAAAP/89u3tAAABAgL+/Pz8AAABAwYB+/z8AAABBQcD//79//7+/wQIBgD+/v379gIMBwH+/v79+gELBv/8///++/8C//r4///////++vXz//////78+PTyAAABAgL//f39AAABAwMA/v39AAABBAQBAP/+//8ABQYBAgD//v7/AgAEAwD//v7/AAcIA//9/////wEC//z6///////++/j2//////78+vf1/Pz9/gADBQcH+/v8/f8CBQYG+/r5+vwABAUF+/r27fL+AwQE/Pz58wAJBAMC/wABCA4IAQEBAgMGDQ8GAgEBBAYLFhkMBgQDBQcOHBQPCQYE/Pz9/wEEBwgI+/v8/wADCAgH+/n2Av4CCQcG+/n2/gEDBgQE/Pz6AQIJBwIC/v/+CAwB+v4AAQMEAQP+/f8AAwUHAgQEBAMCBAUEBQUMCQUD/P3+AAIGCQkJ/Pz9/wAEDgoI/Pv6AP8DDAkH/Pv7AgEIBAQE/P3+/gEF/wAB+v0AAv7r7/v//wID//Xn8/v+AgQF/Pj5/f8AAgMCAP8AAQEB/f7/AQMICgoJ/f3+AAEIDQoJ/f39/wMLDAkH/f3+BAQFBgUE/f4AAwL8/gAB+/3///ns9Pz+/v/+9/Tt9fv9AAD/+vj4+/3+AQD//fz8/f7//f7/AQQICgoJ/f7/AQUKCwoJ/f7/AQgTDAkH/f7+/QQPCAYF/f7+/QAEAQEB/f7/Af33+v3+/v7+/Pn2+fz9///+/Pr5+/z9AP/+/fv7/P3++vv8/f39/fz8+vv8/v///v38+fv9AQMEAf37+Pr/CBIJBP369Pf8/wD6+PXy7/H1/uzu6+jn6Ofm5dbU2trb4d7XyMDFys7S3dnPwMDAxMjN+vr7/Pz8/Pv7+vr7/P3+/fz7+fr8/v8FAf379/oABRAGAP/89PcABAL89fXz7/H4Afv27ujn6Obm7OTd3dja4d3Y1c/Lw8fS3trSw8bAwMHM+fn6+vr6+vn5+fn6+vv6+vr5+Pn6/AL++vr59vj7/gz/9fn48/T5AAH58fLx7/Dx9ff78+vp6Obl5+fs5d/e4t7b3t3Z09HX4N3a1tXRzMvR+Pj4+Pj39/f3+Pj4+Pf19vf39/f49/nx8/b29fb39f738vT08vP2/gL48/Hw7/Dx9/v78uzq6enq7+3u6OTi5eTj5eTh3dvc4+Lg397b2NfY+Pj49/b19vb2+Pj49/Xy9PX29/f39vPp8fT09fX29/jy8vLy8vP1+wD58/Dv7+/w8vb17+zq6urr7e3s6OXk5ubm5ubk4d/f5OTj4uHf3dzc",
+  "native_photo": {
+    "runtime_basis": {
+      "schema": "a7c2-photo-q10-endpoint-uniform-matrix/1",
+      "tone_q10": [
+        -34,
+        -205,
+        -803
+      ],
+      "matrix_planes": [
+        [
+          -399,
+          150,
+          137,
+          470,
+          -22,
+          93
+        ],
+        [
+          -400,
+          230,
+          103,
+          512,
+          -74,
+          35
+        ],
+        [
+          -397,
+          301,
+          80,
+          512,
+          14,
+          87
+        ]
+      ],
+      "chroma_planes": [
+        [
+          -15,
+          -52,
+          92,
+          -254,
+          154,
+          -205,
+          250,
+          -127
+        ],
+        [
+          -62,
+          14,
+          -37,
+          -179,
+          49,
+          64,
+          141,
+          239
+        ],
+        [
+          83,
+          55,
+          -217,
+          -163,
+          60,
+          220,
+          -31,
+          239
+        ]
+      ]
+    }
+  },
+  "hncs_native": {
+    "calibration_model": "ILCE-7RM5",
+    "intended_backend": "a7r5-rea look_joint",
+    "simulation_baseline": {
+      "id": "sony-edit-a7rv-physical-u16-v2",
+      "pipeline": "751K/sony-a7m5-looks Sony Edit reconstruction",
+      "calibration_model": "ILCE-7RM5",
+      "camera_equivalence": "accepted engineering premise",
+      "requires_original_cp_execution": false,
+      "scope": "physical uint16 input after common RAW frontend; colour Look payload only"
+    },
+    "carrier_target_is_legacy_wire_contract_only": true,
+    "grid_model": "rea-bt601-limited-reference-v1",
+    "software_candidate": true,
+    "camera_verified": false,
+    "teacher_id": "a7rv-hncs-public-colour-vlog-tail-physical-v1",
+    "physical_baseline": "sony-edit-a7rv-physical-u16-v2",
+    "objective_id": "hncs-only-appearance-self-stability-v2",
+    "colour_target": "HNCS only",
+    "st_reference_constraint": false,
+    "old_look_prior": false,
+    "initializer_only": true,
+    "extra_dro_layer": false,
+    "per_scene_routing": false,
+    "runtime_defringe": false,
+    "fit": "analytic HNCS-only joint fit and exact integer refinement with target-free operator stability"
+  }
+}

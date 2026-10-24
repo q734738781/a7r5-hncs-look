@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A7R V HNCS 启发统一 Look：Sony ST、Adobe 实际 HNCS 与 a7look 软件模拟的三栏照片对比。">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23141715'/%3E%3Ctext x='7' y='24' font-size='24' fill='%23c7d8b7' font-family='sans-serif'%3EH%3C/text%3E%3C/svg%3E">
+  <title>a7r5-hncs-look · 照片对比</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+<main>
+  <header class="intro">
+    <div class="eyebrow">SONY A7R V · A SHARED LOOK</div>
+    <div class="heading"><h1>a7r5-hncs-look</h1><a class="repo" href="https://github.com/q734738781/a7r5-hncs-look">GitHub ↗</a></div>
+    <p class="description">一套统一色彩，九个日常场景。比较索尼 ST、Adobe 实际 HNCS，和我们选择的 a7look。</p>
+    <div class="links"><a class="download" href="downloads/HNCS_Unified_Only.a7look" download>下载 .a7look <span>↓</span></a><span class="status"><i></i>软件模拟 · 尚未机内验证</span></div>
+  </header>
+  <section class="viewer" aria-label="三栏照片对比">
+    <div class="toolbar"><div id="categories" class="tabs" role="group" aria-label="场景分类"><button data-category="全部" aria-pressed="true">全部 <span>09</span></button><button data-category="风景" aria-pressed="false">风景</button><button data-category="植物" aria-pressed="false">植物</button><button data-category="食物" aria-pressed="false">食物</button></div><div class="navigation"><button id="previous" aria-label="上一张">←</button><span id="counter">01 / 09</span><button id="next" aria-label="下一张">→</button></div></div>
+    <div class="photo-heading"><div><span id="category" class="small-label"></span><h2 id="title">正在载入照片…</h2></div><p id="note"></p></div>
+    <div class="triptych">
+      <figure><button class="image-button" data-variant="st" aria-label="放大 Sony ST"><img id="image-st" alt="Sony ST 对照" width="792" height="528" decoding="async"></button><figcaption><b>Sony ST</b><span>Sony Imaging Edge 实际导出</span></figcaption></figure>
+      <figure><button class="image-button" data-variant="adobe" aria-label="放大 Adobe HNCS"><img id="image-adobe" alt="Adobe HNCS 对照" width="792" height="528" decoding="async"></button><figcaption><b>Adobe HNCS</b><span>Camera Raw 实际导出</span></figcaption></figure>
+      <figure class="our-look"><button class="image-button" data-variant="a7look" aria-label="放大我们的 a7look"><img id="image-a7look" alt="我们的 a7look 软件模拟" width="792" height="528" decoding="async"></button><figcaption><b>我们的 a7look <em>UNIFIED</em></b><span>同一套参数 · 完整 5×9×9 网格</span></figcaption></figure>
+    </div>
+    <p class="hint">点击照片放大 · ← → 切换场景 · 所有预览沿用同一版 Look</p>
+    <div id="thumbnails" class="thumbnails" aria-label="选择照片"></div>
+    <p id="error" class="error" hidden></p>
+  </section>
+  <details class="about"><summary>关于这份对比与参数</summary><div class="about-content"><p>我们保留以整体观感选定的 HNCS 启发统一 Look。Adobe HNCS 是实际 Camera Raw 运行 HNCS-Lightroom A7R V 配置的独立对照；本 Look 不宣称精确复现哈苏官方 HNCS，也没有宣称机内效果已经验证。</p><p>Sony ST、Adobe HNCS 与 a7look 来自同一 RAW 的不同处理流程。a7look 应用于以 A7R V 标定和 Sony Edit 重建管线为基线的软件结果。Sony 模拟输入已含一次 DRO，Look 未额外叠加 DRO；Adobe 流程未追加 Sony DRO。</p><p>为比较构图，部分 Adobe 输出已做几何对齐。发布时没有重新拟合、额外调亮或修改颜色。预览为 792×528，保留原对比文件的压缩字节；未上传 RAW 或 EXIF。样片与 Look 的许可见仓库说明。</p><p><a href="https://github.com/q734738781/a7r5-hncs-look#参数文件">参数格式与来源 ↗</a> · <a href="comparison.json">预览清单与摘要</a></p><code>Look SHA-256: 78ac328c0e9a073b35080200fd41d3feec1ec55942931a6b6bd56270c6bcf787</code></div></details>
+  <footer><span>HNCS-inspired. Made for the photographs.</span><span>Sony / Adobe / Hasselblad 为各自权利人所有</span></footer>
+</main>
+<dialog id="lightbox"><div class="lightbox-toolbar"><strong id="lightbox-label"></strong><button id="close-lightbox" aria-label="关闭放大">关闭 ×</button></div><img id="lightbox-image" alt="放大照片"><p>按 Esc 关闭</p></dialog>
+</body>
+</html>
