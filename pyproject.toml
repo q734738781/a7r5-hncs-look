@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a7r5-hncs-look"
+version = "0.2.0"
+description = "HNCS-inspired A7R V software colour operator and analytic native-Look fitting"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT; third-party notices and asset exclusions apply"}
+dependencies = ["numpy>=2.0", "scipy>=1.13", "Pillow>=10", "tifffile>=2024.1", "colour-science>=0.4.4", "rawpy>=0.21"]
+
+[project.optional-dependencies]
+fast = ["numba>=0.60"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+hncs-look = "hncs_native.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,9 @@
+{
+  "schema": "hncs-local-fit/1",
+  "frames": [
+    {"id": "scene-01", "samples": "../data/local/scene-01.npz", "metadata": "../data/local/scene-01.json", "split": "construction"},
+    {"id": "scene-02", "samples": "../data/local/scene-02.npz", "metadata": "../data/local/scene-02.json", "split": "construction"},
+    {"id": "scene-03", "samples": "../data/local/scene-03.npz", "metadata": "../data/local/scene-03.json", "split": "validation"}
+  ],
+  "calibration_state_ids": ["scene-01", "scene-02"]
+}

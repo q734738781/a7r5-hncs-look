@@ -56,7 +56,7 @@
       if (!response.ok) throw new Error('照片清单读取失败');
       const manifest = await response.json(); photos = manifest.photos;
       if (photos.length !== 9 || photos.some(photo => variants.some(v => !photo.images[v]?.path))) throw new Error('照片清单不完整');
-      selected = byId(location.hash.slice(1)) ? location.hash.slice(1) : photos[0].id;
+      selected = byId(location.hash.slice(1)) ? location.hash.slice(1) : (byId(manifest.default_photo) ? manifest.default_photo : photos[0].id);
       buildThumbnails();
       $('previous').onclick = () => move(-1); $('next').onclick = () => move(1);
       for (const button of $('categories').children) button.onclick = () => {category = button.dataset.category; buildThumbnails();};

@@ -2,8 +2,9 @@ MIT License
 
 Copyright (c) 2026 q734738781
 
-Applies to the comparison website and original utility code in this repository.
-Photographs and Look parameter assets are excluded; see ASSETS.md.
+Applies to newly authored website, numerical-core and utility code in this repository.
+Third-party notices and licenses remain applicable. Photographs and Look parameter
+assets are excluded; see ASSETS.md and THIRD_PARTY_NOTICES.md.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

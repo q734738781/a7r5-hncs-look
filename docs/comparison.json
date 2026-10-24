@@ -26,6 +26,35 @@
   },
   "photos": [
     {
+      "id": "scotch-egg",
+      "title": "苏格兰蛋",
+      "category": "食物",
+      "note": "蛋黄、炸衣与生菜的暖冷关系。",
+      "images": {
+        "st": {
+          "path": "assets/images/scotch-egg/st.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 136693,
+          "sha256": "75989e048d50cba1831657bf22e037d3b4d6bf519a348ab57c559b40ce966a16"
+        },
+        "adobe": {
+          "path": "assets/images/scotch-egg/adobe.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 195239,
+          "sha256": "988e8fec832f3917addaac173efa35d935186a8ababfc7e422ba5b5416ec8894"
+        },
+        "a7look": {
+          "path": "assets/images/scotch-egg/a7look.jpg",
+          "width": 792,
+          "height": 528,
+          "bytes": 193148,
+          "sha256": "fdfad1c4decc4669b6da7f074a1bbb8e559fa8b4430f65b55d288a9e1ec4db44"
+        }
+      }
+    },
+    {
       "id": "clouds",
       "title": "云与楼宇",
       "category": "风景",
@@ -200,35 +229,6 @@
       }
     },
     {
-      "id": "scotch-egg",
-      "title": "苏格兰蛋",
-      "category": "食物",
-      "note": "蛋黄、炸衣与生菜的暖冷关系。",
-      "images": {
-        "st": {
-          "path": "assets/images/scotch-egg/st.jpg",
-          "width": 792,
-          "height": 528,
-          "bytes": 136693,
-          "sha256": "75989e048d50cba1831657bf22e037d3b4d6bf519a348ab57c559b40ce966a16"
-        },
-        "adobe": {
-          "path": "assets/images/scotch-egg/adobe.jpg",
-          "width": 792,
-          "height": 528,
-          "bytes": 195239,
-          "sha256": "988e8fec832f3917addaac173efa35d935186a8ababfc7e422ba5b5416ec8894"
-        },
-        "a7look": {
-          "path": "assets/images/scotch-egg/a7look.jpg",
-          "width": 792,
-          "height": 528,
-          "bytes": 193148,
-          "sha256": "fdfad1c4decc4669b6da7f074a1bbb8e559fa8b4430f65b55d288a9e1ec4db44"
-        }
-      }
-    },
-    {
       "id": "stir-fry",
       "title": "暖光下的菜肴",
       "category": "食物",
@@ -286,5 +286,6 @@
         }
       }
     }
-  ]
+  ],
+  "default_photo": "scotch-egg"
 }

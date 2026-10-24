@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "upstreams": [
+    {
+      "directory": "sony-a7m5-looks",
+      "repository": "751K/sony-a7m5-looks",
+      "url": "https://github.com/751K/sony-a7m5-looks.git",
+      "commit": "042e2c31a9d75803f2af2f3aaa5ede5e6030e448",
+      "license": "MIT",
+      "required_files": [
+        {
+          "path": "sonylook/arw_looks.py",
+          "sha256": "9000fe6ac23871eda364104c79eb3bee0fab459cb852e0678e40ea834106ebdb",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/build_color_table.py",
+          "sha256": "a3fa7952c0560e96c536ca0db605cf23182bf8a643043f1e18d6b2322da28e21",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/decode_780f.py",
+          "sha256": "272d8bbebecb11deb8242ab5a1536b17fafb6ac48d49ebe4e3d60dcacecbc97c",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/decoder_params.py",
+          "sha256": "15105060d40521f03b1df1e08939cdcd1b883815372d9caafd7f0c297fa8b1bc",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/develop_settings.py",
+          "sha256": "12708d51add50e2a2e69666509d02accf4d3dbdf21c9979e025a5709aa7b42f4",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/edit_binary.py",
+          "sha256": "3372a3c672f09154b536831f868c855d8846625d62fa9fe60a57cf917bc3f1ea",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/fused_rust.py",
+          "sha256": "fe3787558628acea6a354f67068f4be3fd3aeeb42534e3e5fa7faf5372106885",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_decode.py",
+          "sha256": "467380f3b17ff3efeabeba9f3f8ed8428fbe37a59c893627ec72fb5ce41a8ada",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_detail.py",
+          "sha256": "1347e98053a983f57c5d06536c51e501fbf98c17ad796a5dbd3524bcd1f731a3",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_dro.py",
+          "sha256": "e5967ac6a7a5abba08509c344e92e60c53cb6c287887322aa3979f7f5aeaa76f",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_effect.py",
+          "sha256": "eab2bf98122fba24ee134d39f574bb169487684849827e44bad5578e8645e99a",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_export.py",
+          "sha256": "6805c77cc89eb44cb0d363eacc1c634ce086432212e70486659f31d646100724",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_frontend.py",
+          "sha256": "584923b15f969717b3253b7a8e96a9d6eed2502d35f3839596dc4a77b7376174",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_itp.py",
+          "sha256": "25b129be4b8fa2fb479c12045d05e3c56bf4b770a5a63ef8965231c2dc982dd5",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_lens.py",
+          "sha256": "eac75f7e9d5617adff506162b9541d73e7dcb71ad174d57805a2217aef0a7817",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_look.py",
+          "sha256": "5ad3d96a5613ca3aa0de424a7aec973a3fbcb01c74acb547fd3d278b7efbc0d9",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_marble.py",
+          "sha256": "936097bd404c8898663131582a10feeead16efe9543677ac930a56a42bfa552d",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_rawnr.py",
+          "sha256": "722cba19da65da9cd859d2bb86abcd3605f19a826018baecca3435dbf7f74965",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_render.py",
+          "sha256": "bf302d1a6b11f57fd4bc1ca14e1dfe28668ff9e717e035a959bd622f171f5916",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_shade.py",
+          "sha256": "5532e419c04783af4c9271ef41e1697fb6abfa0607d2259adb9009a9a308ca27",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_sscs.py",
+          "sha256": "bd2e289bda9c906b753daa32d7d37715952fab4ce7f27e9b214b5447c8c605d4",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_tonecurve.py",
+          "sha256": "daa7a1cadb810a7cde7c039ee4e48670bee78b05e8a235fe7acff163d6fb67ca",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_ycc.py",
+          "sha256": "6c7bc93423f1ae6338262a140a7f24e904f4599d18dad5e411b2bac3e874da1b",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sony_ycc_stages.py",
+          "sha256": "bba2df4fcf85e276852c35c276fbadffba80140a140694c8b8aaf45c67ed70b1",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/sr2.py",
+          "sha256": "364666bb026ed47a38b4886acd8ce0344f28ad5fcc1d06d8dfcc5656af9b2647",
+          "mode": "text-lf"
+        },
+        {
+          "path": "sonylook/table_cache.py",
+          "sha256": "4f9ffc4e17362448eb0f564becd705fd8e4fe7c1bc62bbb90717e36f25943ea6",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/acr_encoding.py",
+          "sha256": "db0b122c6e133e490e9f441be79d4ff14c67162433ac822f1e77db09eede738f",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/acr_look.py",
+          "sha256": "bd12dae3e71e4c5a42ad6e3514df9f86b0f93b40fdc94e484d7a3ef27eb1ec29",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/acr_profiles.py",
+          "sha256": "9d4c3a0ab0dcd657c4ebe8fb3169aa3c078239a371e57f9f739152a8b08d9edf",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/compare_acr_export.py",
+          "sha256": "ca31b848c0da7245f7480115877060bdc02b52ebbc475467dd3ed65592138713",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/compare_figure.py",
+          "sha256": "5338fff131493e1a0a41d9635f71f6bce635b601940ac7edd6d4ecbaac83fdad",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/crs_table.py",
+          "sha256": "3ce9fa65cca46099861a921261c58a95533ddd75c4e59f8679e61851015988fb",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/dcp.py",
+          "sha256": "de545b1930b0590690904a4504629846ac5a669a58935074a231233d5eb8ce94",
+          "mode": "text-lf"
+        },
+        {
+          "path": "camera_raw/measure_acr_chart.py",
+          "sha256": "82679b44318ee3246b96d2870a2ee98b2bab759d29436b31d0030f6bc2b18be4",
+          "mode": "text-lf"
+        }
+      ]
+    },
+    {
+      "directory": "HNCS-Lightroom",
+      "repository": "fishvivfish/HNCS-Lightroom",
+      "url": "https://github.com/fishvivfish/HNCS-Lightroom.git",
+      "commit": "38fbbfc9c593e3ba65ced3a7c08e1d3e84f91ca0",
+      "license": "Apache-2.0",
+      "required_files": [
+        {
+          "path": "hncs_core/__init__.py",
+          "sha256": "d1e6f2540adf0563eb2f392e002566a6cefb00404fddfada3d64ba158fc191d4",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/adobe_sdk_color.py",
+          "sha256": "4adb8fc0444af4538cc27fd2524626754d03e074011e489216e9b4d24ea723a2",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/adobe_triple_illuminant.py",
+          "sha256": "2b957258e52c9379724ec547ac71fea47c25921bac51290593b8f75853e3bb0b",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/color_correct.py",
+          "sha256": "8511fad1aa4e85d0b8e6180d1727bcb181165f935b9f017f952539275bca39d6",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/colour.py",
+          "sha256": "dda2f3f4c05d3a4c4f34091f5cdddd7de73c498efc299ece02a56208a4017385",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/dcp_tags.py",
+          "sha256": "3e64decb139f0bffa6e223bdda4b2e4ba29e1228b32cf25a9252f9098a3fed07",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/dng_huesat.py",
+          "sha256": "538bcf04e14a1c0492f8a99e56642bc9fd8cc28bb9e9d8d253f049e733a384ee",
+          "mode": "text-lf"
+        },
+        {
+          "path": "hncs_core/phocus401_wb.py",
+          "sha256": "0e8b5086d995a3fec13f01f7e45972a64f66e413e7a704a1e40a401bbd484522",
+          "mode": "text-lf"
+        },
+        {
+          "path": "tools/hncs_full_probe.py",
+          "sha256": "4c340204e21c5c3ca0e4c255b8fe773fb5e9773296fc4f6be344a27c2cfdd21a",
+          "mode": "text-lf"
+        },
+        {
+          "path": "profiles/sony-ilce-7rm5/HNCS.xmp",
+          "sha256": "2cacbf7b16672ce11074b78da72c07b1eaa1c915511601397ebd55699a6db76f",
+          "mode": "text-lf"
+        },
+        {
+          "path": "profiles/sony-ilce-7rm5/HNCS Base - ILCE-7RM5.dcp",
+          "sha256": "0707070fd3f35968b2b922a1ce0a854ee10520ad1d9c0095ed40a45b5c4d0cf5",
+          "mode": "binary"
+        }
+      ]
+    },
+    {
+      "directory": "V-Log-Alchemy",
+      "repository": "shenmintao/V-Log-Alchemy",
+      "url": "https://github.com/shenmintao/V-Log-Alchemy.git",
+      "commit": "e51ba9a23458ff5c316f630b860eb0201139d126",
+      "license": "Apache-2.0",
+      "required_files": [
+        {
+          "path": "Tools/generate_hasselblad_vlog.py",
+          "sha256": "03880ecfb103901dbe2d40a2aed9cc7b59f76c04514ef797696809c05d6ad5ec",
+          "mode": "text-lf"
+        },
+        {
+          "path": "Tools/hasselblad_x2d100c_standard_cc.json",
+          "sha256": "c5661ea580b9a8257efab5042e22fc8b79e5b00fe80869520c6b1a6e480b4b55",
+          "mode": "text-lf"
+        },
+        {
+          "path": "Tools/hasselblad_standard_film_curve_float_65536.bin",
+          "sha256": "3ff3e7bb83b37fc64961b2eee02833f9e52766f2ecdd5486ed7a24412006bf4d",
+          "mode": "binary"
+        },
+        {
+          "path": "Tools/hasselblad_daylight_colormap_float2_105x89.bin",
+          "sha256": "350f7043d6c8f0f068903f147571c9921f06e748bf4eb850f321587917b8d8db",
+          "mode": "binary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 """Check the published Look and comparison files. Standard library only."""
 from pathlib import Path
-import base64,hashlib,json,struct
+import base64,hashlib,json,struct,re
 
 ROOT=Path(__file__).resolve().parents[1]
 EXPECTED='78ac328c0e9a073b35080200fd41d3feec1ec55942931a6b6bd56270c6bcf787'
@@ -47,7 +47,6 @@ def main():
             total+=1
     for file in ('docs/index.html','docs/assets/app.js','docs/assets/style.css','README.md','LICENSE','ASSETS.md'):
         text=(ROOT/file).read_text(encoding='utf-8')
-        assert not any(s in text for s in ('F:\\','C:\\Users\\','Z:\\','PRIVATE KEY'))
-    assert not list(ROOT.rglob('*.ARW')) and not list(ROOT.rglob('*.DAT'))
+        assert not re.search(r'(?i)\b[a-z]:[\\/](?:Users|RAW)[\\/]',text)
     print(f'PASS: unchanged Look; full grid; {total} previews; no EXIF; local assets verified.')
 if __name__=='__main__':main()

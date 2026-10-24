@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "scope": "Source-publication and portability checks; not a new fitted Look or camera validation",
+  "synthetic_math_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "research_to_public_numeric_parity": {
+    "calibration_states": 6,
+    "normal_and_highlight_points": 7680,
+    "sony_max_absolute_difference": 0.0,
+    "teacher_max_absolute_difference": 0.0,
+    "reverse_derivative_identical": true,
+    "private_inputs_published": false
+  },
+  "fresh_upstream_check": {
+    "repositories": 3,
+    "required_file_hashes_passed": 49,
+    "runtime_imports_passed": true
+  },
+  "editable_install": {
+    "build_isolation": true,
+    "import_and_inspect_passed": true
+  },
+  "own_raw_smoke_check": {
+    "commands_passed": ["prepare", "fit", "evaluate", "render look", "render teacher", "render sony"],
+    "short_continuous_and_grid_fit_passed": true,
+    "one_integer_sweep_passed": true,
+    "integer_reference_agreement": true,
+    "fit_quality_claim": false,
+    "raw_and_cache_published": false
+  },
+  "gallery": {
+    "default_photo": "scotch-egg",
+    "photos": 9,
+    "previews": 27,
+    "original_preview_bytes_unchanged": true,
+    "desktop_and_mobile_overflow": false,
+    "navigation_filter_lightbox_and_deep_links_passed": true
+  },
+  "released_look": {
+    "sha256": "78ac328c0e9a073b35080200fd41d3feec1ec55942931a6b6bd56270c6bcf787",
+    "bytes_unchanged": true,
+    "camera_verified": false
+  }
+}

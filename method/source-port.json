@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": "src/hncs_native/sony/forward.py",
+      "research_source_sha256": "a466068c2fe4ed7010cb5eeba63472ec62a6abbea92f8af32c3c984008d68126",
+      "published_sha256": "469bc37b01eb97c43a2b213f9e4ffef8d938d41c76e9fb2979c09c0accc7c452",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/sony/physical.py",
+      "research_source_sha256": "e5d4152dce926505b160ec35243646f13bc75437392699a064df15ad32a37f35",
+      "published_sha256": "e5d4152dce926505b160ec35243646f13bc75437392699a064df15ad32a37f35",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/sony/rea_adapter.py",
+      "research_source_sha256": "cc9ce6b7f322f0c07b783e1cbe485c783e9a1e8426455480978c1ac768869921",
+      "published_sha256": "10c8fcacc7f2f6605a727c1ced377f9fa879f5ed5d866a01cece1c9dc88a1885",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/sony/reference.py",
+      "research_source_sha256": "8ecb56ccca61f8f8129682a3acd1ea3838ab49d03e0a7df0df97d844176f6601",
+      "published_sha256": "8ecb56ccca61f8f8129682a3acd1ea3838ab49d03e0a7df0df97d844176f6601",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/sony/fast_native.py",
+      "research_source_sha256": "c9f91bc4c31cff00456d3de5ce58eaa4e863827620f595653d904c13d9c01d10",
+      "published_sha256": "29f627492f11804c4e211219679b4af63bb9f97c46e77d48d484395c86dacdb3",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/sony/fast_grid.py",
+      "research_source_sha256": "41a85933938503501dd6694f30857208354295eddc18f824e51c6547e8cab641",
+      "published_sha256": "8bfb3e4b4336b2b11d88b9d85f43a103d150d28cafeb86cb66453529f571462d",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/sony/baseline.py",
+      "research_source_sha256": "57852f73ab15fc505372f8749ad959c57ced12bae773edc9798a75fe9d206739",
+      "published_sha256": "d210c3cfa7088ad66e5ec05b3c548d59a42e4cdddb046ce0a4104c3e8474de3f",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/teacher/phocus.py",
+      "research_source_sha256": "5a868e6130b9a58ec9655abacec1a5264caebe7b49b9576591395cad0b091cd0",
+      "published_sha256": "744ade0e1cc75ff165f81a2405fd186453cba7e0898d6637d489bf308436e47b",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/teacher/reference.py",
+      "research_source_sha256": "22fac98fdc2c38626deda9e8d4b18f5eb23d7fd67b48d63b543dadee09497c06",
+      "published_sha256": "16e7cadc8d0a823697e11d82c9b68ba388578ac09b000378cec9577990a5fa50",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/teacher/vlog_reference.py",
+      "research_source_sha256": "b51471b7ea83d98b16d6061cdfebc3bd1cfa8129c3350ba3d417dd8bdc2cf087",
+      "published_sha256": "e1b369473bb9fa34636242cae856b1049333576e21c5ed22ebbc9a3362536ca9",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/teacher/fast_reference.py",
+      "research_source_sha256": "93deb8dd57535fd1944dee8ac51995f900ed56d33466c52ec8af27e947966e6c",
+      "published_sha256": "93deb8dd57535fd1944dee8ac51995f900ed56d33466c52ec8af27e947966e6c",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/operator_math.py",
+      "research_source_sha256": "0bc0bb9ca0094079e52ff138e144d5fe6fd3c26760023122ac5d15411b7648c1",
+      "published_sha256": "8947c778c05d5a8a4d9168164a65902b2ef00eb691eebc191fb34ac633c5f5cc",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/reverse.py",
+      "research_source_sha256": "4b7207bea1db2a798fe6fba523839c7a7310361e33da0b41eb26fe2d44104759",
+      "published_sha256": "778f2525cc0901298a576ccbec195a4b2340ef06f7a0f0125602aa4ae7ee782f",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/unified.py",
+      "research_source_sha256": "76b7483fcba692581202ef600d947b6c0029a922249b6fbead1eb2f48577c413",
+      "published_sha256": "2484809af2c0e20aa65572b32e27bddb933c8eb2d2c261da1201136e3cefc302",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/de00_differential.py",
+      "research_source_sha256": "022b43d907fe0e13215dae4b24d9ebf9e27fd642eea78eeaf9624bdac6c08acb",
+      "published_sha256": "022b43d907fe0e13215dae4b24d9ebf9e27fd642eea78eeaf9624bdac6c08acb",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/grid_compiled.py",
+      "research_source_sha256": "002138fc6dcacbe3b559966faef12280bf4e568cb1bb7471005c13b612a597bc",
+      "published_sha256": "002138fc6dcacbe3b559966faef12280bf4e568cb1bb7471005c13b612a597bc",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/integer_grid.py",
+      "research_source_sha256": "1532765d83b9e62a76045c282aabb244597287708870b59a610e229445ca9a0a",
+      "published_sha256": "1532765d83b9e62a76045c282aabb244597287708870b59a610e229445ca9a0a",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/hncs_highlight.py",
+      "research_source_sha256": "bd1a10fdeedb1b602687d4ec92eb55b0588295cc2ffe4baa3c5f6cb10568b3c0",
+      "published_sha256": "bd1a10fdeedb1b602687d4ec92eb55b0588295cc2ffe4baa3c5f6cb10568b3c0",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    },
+    {
+      "file": "src/hncs_native/optimizer/highlight.py",
+      "research_source_sha256": "4ac1b5ef51430af4d1c39eb65c2e0442cd4a51a428ab100f5c7a0a1626a34146",
+      "published_sha256": "c6d681ef4fc50c7d712d53023ec741951ab34516ba4334b7211f847428240fb5",
+      "changes": "package imports and portability; unused historical raw averaging / reference-colour guard removed where present"
+    }
+  ],
+  "port_scope": "Original numerical core; import/asset configuration made portable. No firmware writer or original-CP binary runner included."
+}
