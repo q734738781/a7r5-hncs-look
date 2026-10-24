@@ -1,3 +1,3 @@
 * text=auto eol=lf
-*.a7look -text
+*.a7look -text whitespace=cr-at-eol
 *.jpg -text
